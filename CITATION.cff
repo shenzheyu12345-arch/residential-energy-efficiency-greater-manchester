@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this analysis, please cite the repository."
+title: "Residential energy efficiency inequalities in Greater Manchester"
+type: software
+authors:
+  - family-names: Shen
+    given-names: Zheyu
+version: 1.0.0
+date-released: 2026-09-10
+abstract: >-
+  Reproducible data construction, spatial analysis, explainable machine
+  learning and sensitivity analysis for an MSc dissertation on residential
+  energy efficiency inequalities across Greater Manchester LSOAs.
+keywords:
+  - energy performance certificates
+  - residential energy efficiency
+  - Greater Manchester
+  - spatial analysis
+  - explainable machine learning
+  - SHAP
+

@@ -1,0 +1,2 @@
+outcome,n_lsoa,coverage_min,coverage_max,moran_i,expected_i,permutation_p_value,z_sim,permutations,queen_islands
+below_c_rate,1635,0.25,1.25,0.3746414198794267,-0.0006119951040391676,0.001,24.81763194744445,999,1

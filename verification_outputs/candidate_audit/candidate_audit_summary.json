@@ -1,0 +1,56 @@
+{
+  "n_lsoa": 1702,
+  "n_candidate_features": 20,
+  "high_correlation_threshold": 0.8,
+  "n_high_correlation_pairs": 5,
+  "structural_composition_checks": [
+    {
+      "construct": "Dwelling age",
+      "n_categories": 3,
+      "mean_sum": 1.0,
+      "minimum_sum": 0.9999999999999997,
+      "maximum_sum": 1.0000000000000002,
+      "maximum_absolute_deviation_from_one": 3.3306690738754696e-16
+    },
+    {
+      "construct": "EPC property category",
+      "n_categories": 4,
+      "mean_sum": 1.0,
+      "minimum_sum": 0.9999999999999997,
+      "maximum_sum": 1.0000000000000002,
+      "maximum_absolute_deviation_from_one": 3.3306690738754696e-16
+    },
+    {
+      "construct": "EPC built form",
+      "n_categories": 3,
+      "mean_sum": 1.0,
+      "minimum_sum": 0.9999999999999997,
+      "maximum_sum": 1.0000000000000002,
+      "maximum_absolute_deviation_from_one": 3.3306690738754696e-16
+    },
+    {
+      "construct": "Main fuel",
+      "n_categories": 3,
+      "mean_sum": 1.0,
+      "minimum_sum": 0.9999999999999997,
+      "maximum_sum": 1.0000000000000002,
+      "maximum_absolute_deviation_from_one": 3.3306690738754696e-16
+    },
+    {
+      "construct": "Census tenure",
+      "n_categories": 5,
+      "mean_sum": 1.0,
+      "minimum_sum": 0.9999999999999996,
+      "maximum_sum": 1.0000000000000002,
+      "maximum_absolute_deviation_from_one": 4.440892098500626e-16
+    }
+  ],
+  "expanded_model_encoding": {
+    "omitted_age_category": "mid_1930_1990_pct",
+    "omitted_property_category": "house_pct",
+    "omitted_built_form": "detached_pct",
+    "omitted_main_fuel": "mains_gas_pct",
+    "omitted_tenure": "owner_occupied_pct",
+    "reason": "One category per exhaustive group is omitted to avoid deterministic redundancy in SHAP attribution."
+  }
+}

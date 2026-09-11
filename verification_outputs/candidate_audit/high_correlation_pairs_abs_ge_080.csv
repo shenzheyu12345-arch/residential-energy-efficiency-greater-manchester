@@ -1,0 +1,6 @@
+feature_1,feature_2,construct_1,construct_2,spearman_rho,absolute_rho,same_compositional_group
+mains_gas_pct,electric_fuel_pct,Main fuel,Main fuel,-0.9820669762648366,0.9820669762648366,True
+social_rented_pct,imd_score,Census tenure,Deprivation,0.8632212288971598,0.8632212288971598,False
+owner_occupied_pct,imd_score,Census tenure,Deprivation,-0.8409971979111118,0.8409971979111118,False
+owner_occupied_pct,social_rented_pct,Census tenure,Census tenure,-0.834293740060785,0.834293740060785,True
+house_pct,flat_maisonette_pct,EPC property category,EPC property category,-0.8157394651211023,0.8157394651211023,True

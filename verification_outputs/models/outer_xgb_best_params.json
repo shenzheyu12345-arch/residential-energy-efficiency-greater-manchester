@@ -1,0 +1,162 @@
+[
+  {
+    "fold": 1,
+    "held_out_lad": "Bolton",
+    "best_inner_rmse": 8.446039403836021,
+    "best_params": {
+      "subsample": 0.7,
+      "reg_lambda": 3.0,
+      "reg_alpha": 0.1,
+      "n_estimators": 150,
+      "min_child_weight": 5,
+      "max_depth": 3,
+      "learning_rate": 0.03,
+      "gamma": 0.0,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "fold": 2,
+    "held_out_lad": "Bury",
+    "best_inner_rmse": 8.360573607349387,
+    "best_params": {
+      "subsample": 0.7,
+      "reg_lambda": 3.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 250,
+      "min_child_weight": 10,
+      "max_depth": 3,
+      "learning_rate": 0.03,
+      "gamma": 0.0,
+      "colsample_bytree": 0.85
+    }
+  },
+  {
+    "fold": 3,
+    "held_out_lad": "Manchester",
+    "best_inner_rmse": 8.728616674650596,
+    "best_params": {
+      "subsample": 1.0,
+      "reg_lambda": 1.0,
+      "reg_alpha": 0.01,
+      "n_estimators": 400,
+      "min_child_weight": 3,
+      "max_depth": 5,
+      "learning_rate": 0.02,
+      "gamma": 0.01,
+      "colsample_bytree": 1.0
+    }
+  },
+  {
+    "fold": 4,
+    "held_out_lad": "Oldham",
+    "best_inner_rmse": 8.486246215595411,
+    "best_params": {
+      "subsample": 0.7,
+      "reg_lambda": 3.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 150,
+      "min_child_weight": 10,
+      "max_depth": 5,
+      "learning_rate": 0.03,
+      "gamma": 0.1,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "fold": 5,
+    "held_out_lad": "Rochdale",
+    "best_inner_rmse": 8.34990493082842,
+    "best_params": {
+      "subsample": 0.7,
+      "reg_lambda": 1.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 150,
+      "min_child_weight": 10,
+      "max_depth": 3,
+      "learning_rate": 0.05,
+      "gamma": 0.1,
+      "colsample_bytree": 0.85
+    }
+  },
+  {
+    "fold": 6,
+    "held_out_lad": "Salford",
+    "best_inner_rmse": 8.31525561981049,
+    "best_params": {
+      "subsample": 0.85,
+      "reg_lambda": 3.0,
+      "reg_alpha": 0.1,
+      "n_estimators": 250,
+      "min_child_weight": 10,
+      "max_depth": 2,
+      "learning_rate": 0.08,
+      "gamma": 0.01,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "fold": 7,
+    "held_out_lad": "Stockport",
+    "best_inner_rmse": 8.326993205256587,
+    "best_params": {
+      "subsample": 0.7,
+      "reg_lambda": 10.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 600,
+      "min_child_weight": 3,
+      "max_depth": 2,
+      "learning_rate": 0.02,
+      "gamma": 0.0,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "fold": 8,
+    "held_out_lad": "Tameside",
+    "best_inner_rmse": 8.378775100014991,
+    "best_params": {
+      "subsample": 1.0,
+      "reg_lambda": 1.0,
+      "reg_alpha": 0.1,
+      "n_estimators": 250,
+      "min_child_weight": 10,
+      "max_depth": 3,
+      "learning_rate": 0.05,
+      "gamma": 0.01,
+      "colsample_bytree": 0.85
+    }
+  },
+  {
+    "fold": 9,
+    "held_out_lad": "Trafford",
+    "best_inner_rmse": 8.235181557290442,
+    "best_params": {
+      "subsample": 0.7,
+      "reg_lambda": 10.0,
+      "reg_alpha": 0.1,
+      "n_estimators": 150,
+      "min_child_weight": 1,
+      "max_depth": 3,
+      "learning_rate": 0.05,
+      "gamma": 0.01,
+      "colsample_bytree": 1.0
+    }
+  },
+  {
+    "fold": 10,
+    "held_out_lad": "Wigan",
+    "best_inner_rmse": 8.257703932587898,
+    "best_params": {
+      "subsample": 1.0,
+      "reg_lambda": 10.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 600,
+      "min_child_weight": 5,
+      "max_depth": 2,
+      "learning_rate": 0.02,
+      "gamma": 0.0,
+      "colsample_bytree": 0.85
+    }
+  }
+]

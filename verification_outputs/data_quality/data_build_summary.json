@@ -1,0 +1,73 @@
+{
+  "epc": {
+    "raw_epc_certificates": 1152527,
+    "latest_unique_dwellings": 833992,
+    "duplicate_certificate_rows_removed": 318535,
+    "window_start": "2015-11-01",
+    "window_end": "2025-10-31",
+    "latest_dwellings_in_window": 543984,
+    "share_latest_dwellings_in_window": 0.6522652495467582
+  },
+  "geography": {
+    "active_latest_dwellings_before_geography_filter": 543984,
+    "matched_to_english_lsoa21": 540448,
+    "matched_to_english_lsoa21_share": 0.9934998088179064,
+    "matched_to_greater_manchester_lsoa": 540310,
+    "matched_to_greater_manchester_lsoa_share": 0.993246124886026,
+    "outside_gm_or_unmatched": 3674
+  },
+  "analytical_dataset": {
+    "rows": 1702,
+    "rows_with_epc": 1702,
+    "rows_without_epc": 0,
+    "rows_n_epc_below_10": 0,
+    "rows_n_epc_below_30": 0,
+    "rows_coverage_above_1": 36,
+    "rows_coverage_below_0_25": 46,
+    "n_epc_quantiles": {
+      "0.0": 92.0,
+      "0.01": 126.0,
+      "0.05": 150.05,
+      "0.25": 207.0,
+      "0.5": 269.0,
+      "0.75": 364.0,
+      "0.95": 611.8999999999996,
+      "0.99": 1070.7800000000002,
+      "1.0": 2564.0
+    },
+    "coverage_quantiles": {
+      "0.0": 0.17898832684824903,
+      "0.01": 0.2324731828713636,
+      "0.05": 0.26809095190747817,
+      "0.25": 0.33204434868223914,
+      "0.5": 0.4001594896331738,
+      "0.75": 0.4958805970149254,
+      "0.95": 0.721855765711814,
+      "0.99": 1.4640175430850524,
+      "1.0": 2.6792058516196446
+    },
+    "below_c_rate_quantiles": {
+      "0.0": 0.010320478001086366,
+      "0.01": 0.061781691985332635,
+      "0.05": 0.17796474358974362,
+      "0.25": 0.38110350415707644,
+      "0.5": 0.5113895807388957,
+      "0.75": 0.6230930587337911,
+      "0.95": 0.7289143239625167,
+      "0.99": 0.8025436833679622,
+      "1.0": 0.8881118881118881
+    },
+    "median_floor_area_quantiles": {
+      "0.0": 24.0,
+      "0.01": 53.0,
+      "0.05": 60.525000000000006,
+      "0.25": 70.0,
+      "0.5": 76.0,
+      "0.75": 84.0,
+      "0.95": 104.0,
+      "0.99": 132.97000000000003,
+      "1.0": 265.0
+    },
+    "missing_values_by_column": {}
+  }
+}

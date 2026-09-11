@@ -1,0 +1,167 @@
+{
+  "purpose": "Robustness of substantive patterns, not replacement primary performance estimate",
+  "validation": "Leave-one-local-authority-out with fixed final main-model hyperparameters",
+  "hyperparameters": {
+    "subsample": 1.0,
+    "reg_lambda": 1.0,
+    "reg_alpha": 0.0,
+    "n_estimators": 250,
+    "min_child_weight": 10,
+    "max_depth": 4,
+    "learning_rate": 0.02,
+    "gamma": 0.1,
+    "colsample_bytree": 0.7
+  },
+  "scenarios": [
+    {
+      "scenario": "main_fixed_params",
+      "description": "Main sample and features; fixed selected hyperparameters",
+      "features": [
+        "pre_1930_pct",
+        "post_1990_pct",
+        "flat_maisonette_pct",
+        "terraced_pct",
+        "median_floor_area",
+        "electric_fuel_pct",
+        "private_rented_pct",
+        "social_rented_pct",
+        "imd_score"
+      ],
+      "target": "below_c_rate",
+      "target_multiplier": 100.0,
+      "target_unit": "percentage points"
+    },
+    {
+      "scenario": "exclude_social_rented",
+      "description": "Drops social-rented share to test its correlation with IMD",
+      "features": [
+        "pre_1930_pct",
+        "post_1990_pct",
+        "flat_maisonette_pct",
+        "terraced_pct",
+        "median_floor_area",
+        "electric_fuel_pct",
+        "private_rented_pct",
+        "imd_score"
+      ],
+      "target": "below_c_rate",
+      "target_multiplier": 100.0,
+      "target_unit": "percentage points"
+    },
+    {
+      "scenario": "exclude_imd",
+      "description": "Drops IMD score to test its correlation with tenure",
+      "features": [
+        "pre_1930_pct",
+        "post_1990_pct",
+        "flat_maisonette_pct",
+        "terraced_pct",
+        "median_floor_area",
+        "electric_fuel_pct",
+        "private_rented_pct",
+        "social_rented_pct"
+      ],
+      "target": "below_c_rate",
+      "target_multiplier": 100.0,
+      "target_unit": "percentage points"
+    },
+    {
+      "scenario": "non_mains_gas_substitution",
+      "description": "Replaces electric main fuel with non-mains-gas fuel share",
+      "features": [
+        "pre_1930_pct",
+        "post_1990_pct",
+        "flat_maisonette_pct",
+        "terraced_pct",
+        "median_floor_area",
+        "non_mains_gas_pct",
+        "private_rented_pct",
+        "social_rented_pct",
+        "imd_score"
+      ],
+      "target": "below_c_rate",
+      "target_multiplier": 100.0,
+      "target_unit": "percentage points"
+    },
+    {
+      "scenario": "coverage_025_to_125",
+      "description": "Restricts EPC-to-Census household coverage to 0.25-1.25",
+      "features": [
+        "pre_1930_pct",
+        "post_1990_pct",
+        "flat_maisonette_pct",
+        "terraced_pct",
+        "median_floor_area",
+        "electric_fuel_pct",
+        "private_rented_pct",
+        "social_rented_pct",
+        "imd_score"
+      ],
+      "target": "below_c_rate",
+      "target_multiplier": 100.0,
+      "target_unit": "percentage points",
+      "query": "epc_coverage_rate >= 0.25 and epc_coverage_rate <= 1.25"
+    },
+    {
+      "scenario": "age_missing_le_030",
+      "description": "Restricts EPC age-band missingness to at most 30%",
+      "features": [
+        "pre_1930_pct",
+        "post_1990_pct",
+        "flat_maisonette_pct",
+        "terraced_pct",
+        "median_floor_area",
+        "electric_fuel_pct",
+        "private_rented_pct",
+        "social_rented_pct",
+        "imd_score"
+      ],
+      "target": "below_c_rate",
+      "target_multiplier": 100.0,
+      "target_unit": "percentage points",
+      "query": "age_missing_rate <= 0.30"
+    },
+    {
+      "scenario": "mean_epc_score_outcome",
+      "description": "Uses mean current EPC efficiency score as the outcome",
+      "features": [
+        "pre_1930_pct",
+        "post_1990_pct",
+        "flat_maisonette_pct",
+        "terraced_pct",
+        "median_floor_area",
+        "electric_fuel_pct",
+        "private_rented_pct",
+        "social_rented_pct",
+        "imd_score"
+      ],
+      "target": "mean_current_energy_efficiency",
+      "target_multiplier": 1.0,
+      "target_unit": "EPC score points"
+    },
+    {
+      "scenario": "expanded_complete_categories",
+      "description": "Adds complete k-1 encodings of EPC property category, built form, main fuel and Census tenure to test omitted-category sensitivity",
+      "features": [
+        "pre_1930_pct",
+        "post_1990_pct",
+        "flat_maisonette_pct",
+        "bungalow_pct",
+        "park_home_pct",
+        "semi_detached_pct",
+        "terraced_pct",
+        "median_floor_area",
+        "electric_fuel_pct",
+        "other_fuel_pct",
+        "private_rented_pct",
+        "social_rented_pct",
+        "shared_ownership_pct",
+        "rent_free_pct",
+        "imd_score"
+      ],
+      "target": "below_c_rate",
+      "target_multiplier": 100.0,
+      "target_unit": "percentage points"
+    }
+  ]
+}

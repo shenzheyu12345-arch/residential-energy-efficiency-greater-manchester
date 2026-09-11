@@ -1,0 +1,77 @@
+scenario,target,target_unit,feature,mean_absolute_shap,spearman_feature_vs_shap,mean_shap_below_feature_median,mean_shap_above_feature_median,importance_rank
+age_missing_le_030,below_c_rate,percentage points,post_1990_pct,5.774419,-0.9875893576039493,5.5766187,-5.518143,1
+age_missing_le_030,below_c_rate,percentage points,social_rented_pct,5.7155585,-0.9822107836242983,5.145427,-5.582179,2
+age_missing_le_030,below_c_rate,percentage points,pre_1930_pct,2.36914,0.9565971770099329,-2.1096456,2.2581034,3
+age_missing_le_030,below_c_rate,percentage points,imd_score,1.5088487,-0.8940040315015456,1.4884877,-1.3834223,4
+age_missing_le_030,below_c_rate,percentage points,flat_maisonette_pct,1.4609387,-0.9639924180238792,1.5054543,-1.3116171,5
+age_missing_le_030,below_c_rate,percentage points,terraced_pct,0.9421728,-0.916025398212226,0.92014587,-0.9029194,6
+age_missing_le_030,below_c_rate,percentage points,electric_fuel_pct,0.6106036,0.7997898254394856,-0.47150227,0.46731368,7
+age_missing_le_030,below_c_rate,percentage points,median_floor_area,0.5934099,0.33923418405120537,-0.30070823,0.328392,8
+age_missing_le_030,below_c_rate,percentage points,private_rented_pct,0.30233476,-0.5467262843051662,0.12638311,-0.21993794,9
+coverage_025_to_125,below_c_rate,percentage points,post_1990_pct,6.353157,-0.9863337679006828,6.1259403,-6.23647,1
+coverage_025_to_125,below_c_rate,percentage points,social_rented_pct,4.988483,-0.9787128504780928,4.5617266,-4.9620547,2
+coverage_025_to_125,below_c_rate,percentage points,pre_1930_pct,2.4471004,0.9620765355414688,-2.2156754,2.3941848,3
+coverage_025_to_125,below_c_rate,percentage points,imd_score,2.0354435,-0.8663056587367547,2.0420802,-1.8201234,4
+coverage_025_to_125,below_c_rate,percentage points,flat_maisonette_pct,1.4745979,-0.9644174300747627,1.5351123,-1.3411463,5
+coverage_025_to_125,below_c_rate,percentage points,terraced_pct,0.67734855,-0.9102965416834781,0.68296355,-0.6271939,6
+coverage_025_to_125,below_c_rate,percentage points,median_floor_area,0.61080587,0.28943681712747293,-0.2861516,0.21260868,7
+coverage_025_to_125,below_c_rate,percentage points,electric_fuel_pct,0.6003509,0.7731660307061078,-0.44783583,0.43790185,8
+coverage_025_to_125,below_c_rate,percentage points,private_rented_pct,0.223822,0.010019003409538221,-0.015128623,-0.037089203,9
+exclude_imd,below_c_rate,percentage points,post_1990_pct,6.1943603,-0.987773053568116,5.9631896,-6.055444,1
+exclude_imd,below_c_rate,percentage points,social_rented_pct,6.1827283,-0.9763532243792827,5.6657944,-5.986396,2
+exclude_imd,below_c_rate,percentage points,pre_1930_pct,2.296263,0.9613168477454029,-2.0331173,2.3503027,3
+exclude_imd,below_c_rate,percentage points,flat_maisonette_pct,1.5622613,-0.9721367486573104,1.6413201,-1.4436508,4
+exclude_imd,below_c_rate,percentage points,terraced_pct,1.0528797,-0.9451843367690287,1.020186,-1.0632658,5
+exclude_imd,below_c_rate,percentage points,median_floor_area,0.9125701,0.43862158616908203,-0.4820355,0.49086115,6
+exclude_imd,below_c_rate,percentage points,electric_fuel_pct,0.8797976,0.6940531543845928,-0.2677071,0.31252918,7
+exclude_imd,below_c_rate,percentage points,private_rented_pct,0.28129968,-0.8251890916336712,0.20962994,-0.29704633,8
+exclude_social_rented,below_c_rate,percentage points,post_1990_pct,6.1373706,-0.9882519935567908,5.909213,-6.0780807,1
+exclude_social_rented,below_c_rate,percentage points,imd_score,5.0331635,-0.9476012460076153,5.004254,-4.7234836,2
+exclude_social_rented,below_c_rate,percentage points,pre_1930_pct,3.5212317,0.9573953225509718,-3.3056982,3.2876205,3
+exclude_social_rented,below_c_rate,percentage points,flat_maisonette_pct,2.6653373,-0.9761796908841612,2.6794884,-2.4782362,4
+exclude_social_rented,below_c_rate,percentage points,terraced_pct,1.2009904,-0.9496561989024185,1.1432137,-1.2350368,5
+exclude_social_rented,below_c_rate,percentage points,median_floor_area,0.96916586,0.5224696930838374,-0.5794726,0.6739642,6
+exclude_social_rented,below_c_rate,percentage points,electric_fuel_pct,0.83287126,0.8121511002740424,-0.7469984,0.7042688,7
+exclude_social_rented,below_c_rate,percentage points,private_rented_pct,0.6386503,0.551788377158269,-0.53999877,0.317386,8
+expanded_complete_categories,below_c_rate,percentage points,post_1990_pct,6.238779,-0.9873432566610422,5.963436,-6.1200714,1
+expanded_complete_categories,below_c_rate,percentage points,social_rented_pct,5.8198586,-0.9727508624571998,5.228532,-5.605593,2
+expanded_complete_categories,below_c_rate,percentage points,pre_1930_pct,2.3947392,0.9623444165678158,-2.0842974,2.400986,3
+expanded_complete_categories,below_c_rate,percentage points,flat_maisonette_pct,1.2138641,-0.9572986247031359,1.2417077,-1.0811223,4
+expanded_complete_categories,below_c_rate,percentage points,semi_detached_pct,0.81180155,0.8932841109642503,-0.7750197,0.78388363,5
+expanded_complete_categories,below_c_rate,percentage points,imd_score,0.7840933,-0.8807160754387728,0.7914683,-0.6937796,6
+expanded_complete_categories,below_c_rate,percentage points,median_floor_area,0.65984887,0.46624689420067267,-0.405142,0.3713034,7
+expanded_complete_categories,below_c_rate,percentage points,electric_fuel_pct,0.64715636,0.7181515034825462,-0.3247795,0.37586176,8
+expanded_complete_categories,below_c_rate,percentage points,bungalow_pct,0.52018046,0.6856253507207568,-0.40171173,0.39893267,9
+expanded_complete_categories,below_c_rate,percentage points,rent_free_pct,0.41787872,-0.8692606338551763,0.40744737,-0.4289761,10
+expanded_complete_categories,below_c_rate,percentage points,terraced_pct,0.3254178,-0.8692681620875616,0.3035792,-0.3184941,11
+expanded_complete_categories,below_c_rate,percentage points,shared_ownership_pct,0.26985607,-0.7801171898670061,0.2048967,-0.19480127,12
+expanded_complete_categories,below_c_rate,percentage points,private_rented_pct,0.15050675,-0.3591384100844653,0.06664675,-0.11536697,13
+expanded_complete_categories,below_c_rate,percentage points,other_fuel_pct,0.046043247,0.5103871775787623,-0.03246951,0.033529617,14
+expanded_complete_categories,below_c_rate,percentage points,park_home_pct,0.0,,0.0,0.0,15
+main_fixed_params,below_c_rate,percentage points,post_1990_pct,6.3826947,-0.9881868073558604,6.153149,-6.258893,1
+main_fixed_params,below_c_rate,percentage points,social_rented_pct,5.4428306,-0.9773256392503563,4.9640703,-5.2978687,2
+main_fixed_params,below_c_rate,percentage points,pre_1930_pct,2.3755248,0.9621712608665566,-2.1275403,2.3495784,3
+main_fixed_params,below_c_rate,percentage points,flat_maisonette_pct,1.5873444,-0.9709208830125332,1.6402497,-1.421167,4
+main_fixed_params,below_c_rate,percentage points,imd_score,1.3652922,-0.8451269199366281,1.3865155,-1.1924405,5
+main_fixed_params,below_c_rate,percentage points,terraced_pct,0.8329869,-0.9317179938129617,0.77363145,-0.8521517,6
+main_fixed_params,below_c_rate,percentage points,electric_fuel_pct,0.82961905,0.694854493915097,-0.33290115,0.33866948,7
+main_fixed_params,below_c_rate,percentage points,median_floor_area,0.62245387,0.3602772169757957,-0.28652397,0.2698439,8
+main_fixed_params,below_c_rate,percentage points,private_rented_pct,0.22647572,-0.5141172764352492,0.090031035,-0.18186995,9
+mean_epc_score_outcome,mean_current_energy_efficiency,EPC score points,post_1990_pct,1.6662837,0.9853888206557165,-1.5751365,1.628209,1
+mean_epc_score_outcome,mean_current_energy_efficiency,EPC score points,social_rented_pct,1.1576866,0.9698519511961253,-1.0656428,1.1173228,2
+mean_epc_score_outcome,mean_current_energy_efficiency,EPC score points,pre_1930_pct,0.587898,-0.9584405522010075,0.5238842,-0.5770571,3
+mean_epc_score_outcome,mean_current_energy_efficiency,EPC score points,electric_fuel_pct,0.254824,-0.6965533461329743,0.04839711,-0.093278825,4
+mean_epc_score_outcome,mean_current_energy_efficiency,EPC score points,median_floor_area,0.21325469,-0.26007485332586694,0.068381704,-0.021739736,5
+mean_epc_score_outcome,mean_current_energy_efficiency,EPC score points,flat_maisonette_pct,0.17322719,0.9126618451539813,-0.18231195,0.14912996,6
+mean_epc_score_outcome,mean_current_energy_efficiency,EPC score points,imd_score,0.15595022,0.7445392326877165,-0.17100845,0.11699664,7
+mean_epc_score_outcome,mean_current_energy_efficiency,EPC score points,terraced_pct,0.12523508,0.9050443649421662,-0.10871503,0.121691264,8
+mean_epc_score_outcome,mean_current_energy_efficiency,EPC score points,private_rented_pct,0.050812267,-0.3624381811498103,0.020456284,-0.0019081392,9
+non_mains_gas_substitution,below_c_rate,percentage points,post_1990_pct,6.432289,-0.9881019113498284,6.1759706,-6.3089194,1
+non_mains_gas_substitution,below_c_rate,percentage points,social_rented_pct,5.9083877,-0.9771584668252421,5.3664865,-5.7682886,2
+non_mains_gas_substitution,below_c_rate,percentage points,pre_1930_pct,2.297578,0.9585457431668574,-2.0139213,2.3565838,3
+non_mains_gas_substitution,below_c_rate,percentage points,flat_maisonette_pct,1.5205754,-0.9691759613179075,1.5686457,-1.3649876,4
+non_mains_gas_substitution,below_c_rate,percentage points,imd_score,1.0879582,-0.8607715637354241,1.106232,-0.9384581,5
+non_mains_gas_substitution,below_c_rate,percentage points,terraced_pct,0.7736855,-0.9170701784769315,0.73229265,-0.7651155,6
+non_mains_gas_substitution,below_c_rate,percentage points,non_mains_gas_pct,0.6874144,0.7319820306051632,-0.38347998,0.398643,7
+non_mains_gas_substitution,below_c_rate,percentage points,median_floor_area,0.55426544,0.3268212075459957,-0.2408701,0.21874365,8
+non_mains_gas_substitution,below_c_rate,percentage points,private_rented_pct,0.27048364,-0.5219211954246581,0.10775572,-0.23543014,9

@@ -1,0 +1,10 @@
+feature,display_label,mean_absolute_shap_pp
+post_1990_pct,Post-1990 dwellings (%),6.507772
+social_rented_pct,Social rented (%),5.331233
+pre_1930_pct,Pre-1930 dwellings (%),2.378087
+flat_maisonette_pct,Flats/maisonettes (%),1.5711833
+imd_score,IMD score,1.4719448
+terraced_pct,Terraced dwellings (%),0.8218189
+electric_fuel_pct,Electric main fuel (%),0.6965712
+median_floor_area,Median floor area (m²),0.5929633
+private_rented_pct,Private rented (%),0.25469184

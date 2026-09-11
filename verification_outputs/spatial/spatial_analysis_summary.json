@@ -1,0 +1,54 @@
+{
+  "n_lsoa": 1702,
+  "queen_islands": [],
+  "global_moran": [
+    {
+      "outcome": "below_c_rate",
+      "n_lsoa": 1702,
+      "moran_i": 0.41714261826115584,
+      "expected_i": -0.0005878894767783657,
+      "permutation_p_value": 0.001,
+      "z_sim": 30.439353913690155,
+      "permutations": 999,
+      "queen_islands": 0
+    },
+    {
+      "outcome": "mean_current_energy_efficiency",
+      "n_lsoa": 1702,
+      "moran_i": 0.4052182141071043,
+      "expected_i": -0.0005878894767783657,
+      "permutation_p_value": 0.001,
+      "z_sim": 30.0585194933442,
+      "permutations": 999,
+      "queen_islands": 0
+    }
+  ],
+  "lisa_cluster_counts": {
+    "Not significant": 1575,
+    "Low-Low": 93,
+    "High-High": 29,
+    "Low-High": 5
+  },
+  "coverage_sensitivity": {
+    "coverage_range": [
+      0.25,
+      1.25
+    ],
+    "n_lsoa": 1635,
+    "queen_islands": [
+      "E01033999"
+    ],
+    "global_moran_below_c": {
+      "moran_i": 0.3746414198794267,
+      "expected_i": -0.0006119951040391676,
+      "permutation_p_value": 0.001
+    },
+    "lisa_cluster_counts": {
+      "Not significant": 1527,
+      "Low-Low": 80,
+      "High-High": 24,
+      "Low-High": 4
+    },
+    "same_cluster_label_as_main": 1608
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "best_grouped_cv_rmse_pp": 8.364126672936848,
+  "best_params": {
+    "subsample": 1.0,
+    "reg_lambda": 1.0,
+    "reg_alpha": 0.0,
+    "n_estimators": 250,
+    "min_child_weight": 10,
+    "max_depth": 4,
+    "learning_rate": 0.02,
+    "gamma": 0.1,
+    "colsample_bytree": 0.7
+  },
+  "features": [
+    "pre_1930_pct",
+    "post_1990_pct",
+    "flat_maisonette_pct",
+    "terraced_pct",
+    "median_floor_area",
+    "electric_fuel_pct",
+    "private_rented_pct",
+    "social_rented_pct",
+    "imd_score"
+  ],
+  "percentage_scaled_features": [
+    "pre_1930_pct",
+    "post_1990_pct",
+    "flat_maisonette_pct",
+    "terraced_pct",
+    "electric_fuel_pct",
+    "private_rented_pct",
+    "social_rented_pct"
+  ],
+  "target": "below_c_rate multiplied by 100",
+  "grouping": "Local Authority District",
+  "inner_splits": 5
+}

@@ -1,0 +1,123 @@
+{
+  "performance": [
+    {
+      "model": "dummy",
+      "n": 1702,
+      "r2": -0.04395706758978357,
+      "mae_percentage_points": 14.030689947533318,
+      "rmse_percentage_points": 17.370514978957182
+    },
+    {
+      "model": "random_forest",
+      "n": 1702,
+      "r2": 0.7569804444519255,
+      "mae_percentage_points": 6.431004670900098,
+      "rmse_percentage_points": 8.380925608984159
+    },
+    {
+      "model": "xgboost",
+      "n": 1702,
+      "r2": 0.7604414185031327,
+      "mae_percentage_points": 6.378965896506692,
+      "rmse_percentage_points": 8.32103293667091
+    }
+  ],
+  "residual_moran": [
+    {
+      "model": "dummy",
+      "moran_i": 0.4377554109206014,
+      "expected_i": -0.0005878894767783657,
+      "permutation_p_value": 0.001,
+      "z_sim": 31.991554633158028,
+      "permutations": 999,
+      "queen_islands": 0
+    },
+    {
+      "model": "random_forest",
+      "moran_i": 0.1766349140035326,
+      "expected_i": -0.0005878894767783657,
+      "permutation_p_value": 0.001,
+      "z_sim": 12.4802853142546,
+      "permutations": 999,
+      "queen_islands": 0
+    },
+    {
+      "model": "xgboost",
+      "moran_i": 0.19223474919053726,
+      "expected_i": -0.0005878894767783657,
+      "permutation_p_value": 0.001,
+      "z_sim": 13.480643690305538,
+      "permutations": 999,
+      "queen_islands": 0
+    }
+  ],
+  "final_tuning": {
+    "best_grouped_cv_rmse_pp": 8.364126672936848,
+    "best_params": {
+      "subsample": 1.0,
+      "reg_lambda": 1.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 250,
+      "min_child_weight": 10,
+      "max_depth": 4,
+      "learning_rate": 0.02,
+      "gamma": 0.1,
+      "colsample_bytree": 0.7
+    },
+    "features": [
+      "pre_1930_pct",
+      "post_1990_pct",
+      "flat_maisonette_pct",
+      "terraced_pct",
+      "median_floor_area",
+      "electric_fuel_pct",
+      "private_rented_pct",
+      "social_rented_pct",
+      "imd_score"
+    ],
+    "percentage_scaled_features": [
+      "pre_1930_pct",
+      "post_1990_pct",
+      "flat_maisonette_pct",
+      "terraced_pct",
+      "electric_fuel_pct",
+      "private_rented_pct",
+      "social_rented_pct"
+    ],
+    "target": "below_c_rate multiplied by 100",
+    "grouping": "Local Authority District",
+    "inner_splits": 5
+  },
+  "shap_top_features": [
+    {
+      "feature": "post_1990_pct",
+      "display_label": "Post-1990 dwellings (%)",
+      "mean_absolute_shap_pp": 6.507771968841553
+    },
+    {
+      "feature": "social_rented_pct",
+      "display_label": "Social rented (%)",
+      "mean_absolute_shap_pp": 5.331233024597168
+    },
+    {
+      "feature": "pre_1930_pct",
+      "display_label": "Pre-1930 dwellings (%)",
+      "mean_absolute_shap_pp": 2.378087043762207
+    },
+    {
+      "feature": "flat_maisonette_pct",
+      "display_label": "Flats/maisonettes (%)",
+      "mean_absolute_shap_pp": 1.5711833238601685
+    },
+    {
+      "feature": "imd_score",
+      "display_label": "IMD score",
+      "mean_absolute_shap_pp": 1.471944808959961
+    }
+  ],
+  "top_shap_interaction": {
+    "feature_1": "post_1990_pct",
+    "feature_2": "social_rented_pct",
+    "mean_absolute_interaction_shap_pp": 0.439688503742218
+  }
+}
